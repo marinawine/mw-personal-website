@@ -1,0 +1,272 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Kaisei Tokumin', serif;
+}
+
+/* 
+.dark-mode {
+    background-color: black;
+    color: white;
+  } */
+
+/* navbar-section */
+
+.navbar-nav .nav-link {
+    margin: 0px 15px 0px 15px;
+    color: #000;
+}
+
+/* header-section */
+
+.header-section {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+.header-title {
+    font-size: 80px;
+}
+
+.header-subtitle-1,
+.header-subtitle-2 {
+    font-size: 30px;
+}
+
+.header-row-1 {
+    width: auto;
+    padding-top: 100px;
+}
+
+.header-row-2 {
+    width: auto;
+    margin-top: 100px;
+}
+
+.header-row-3 {
+    margin-top: 100px;
+    margin-bottom: 40%;
+}
+
+/* work-section */
+
+.work-section {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+.work-1-position,
+.work-2-position
+{
+    font-size: 30px;
+}
+
+.work-1-company-desc,
+.work-1-task-text,
+.work-1-task-list,
+.work-2-task-text,
+.work-2-task-list {
+    font-size: 25px;
+}
+
+.work-1-date,
+.work-2-date {
+    font-size: 22px;
+    margin-top: 3px;
+}
+
+.vertical-line {
+    margin-top: -30px;
+}
+
+.work-row-2 {
+    margin-top: 100px;
+}
+
+/* education-section */
+
+.education-row-1 {
+    margin-top: 400px;
+}
+
+.education-1-university,
+.education-2-university
+{
+    font-size: 30px;
+}
+
+.education-1-date,
+.education-2-date {
+    font-size: 22px;
+    margin-top: 3px;
+}
+
+.education-row-2 {
+    margin-top: 50px;
+    margin-bottom: 40%;
+}
+
+.education-2-field {
+    font-size: 25px;
+}
+
+/* tech-skills-section */
+
+.tech-skill-1 {
+    font-size: 22px;
+}
+
+.tech-bar {
+    color: red !important;
+    background-color: #000 !important;
+}
+
+.last-tech-skill-row {
+    margin-bottom: 15%;
+}
+
+/* business-skills-sections */
+
+.business-skill-1 {
+    font-size: 22px;
+}
+
+.business-bar {
+    color: red !important;
+    background-color: #000 !important;
+}
+
+.last-business-skill-row {
+    margin-bottom: 20%;
+}
+
+/* footer-section */
+
+.footer-row-1 {
+    margin-top: 20%;
+}
+
+.footer-given-name,
+.footer-family-name {
+    font-size: 60px;
+    line-height: 65px;
+}
+
+.footer-social-media {
+    margin-top: 40px;
+    margin-bottom: 10%;
+    font-size: 16px;
+}
+
+.social-media-link-1,
+.social-media-link-1:hover {
+    all: unset;
+}
+
+#score {
+    font-family: 'Kaisei Tokumin', serif;
+}
+
+abbr {
+    position: relative
+  }
+  
+  abbr:hover::after {
+    background: #add8e6;
+    border-radius: 4px;
+    bottom: 200%;
+    content: attr(title);
+    display: block;
+    padding: 1em;
+    position: absolute;    
+    width: 280px;
+    z-index: 1;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .header-subtitle-1,
+    .header-subtitle-2 {
+        font-size: 25px;
+    }
+
+    .header-subtitle-2 {
+        margin: -60px 0px 0px 0px;
+    }
+
+    /*work-section*/
+
+    .work-section {
+        margin: 300px 0px 0px 0px;
+    }
+
+    .work-1-position,
+    .work-2-position {
+        font-size: 20px;
+    }
+
+    .work-1-company-desc,
+    .work-1-task-text,
+    .work-1-task-list,
+    .work-2-task-text,
+    .work-2-task-list {
+        font-size: 20px;
+    }
+
+    .work-1-date,
+    .work-2-date {
+        font-size: 15px;
+        margin-top: 3px;
+    }
+
+    /*education-section*/
+
+    .education-section {
+        margin: 1000px 0px 0px 0px;
+    }
+
+    .education-1-university,
+    .education-2-university
+    {
+        font-size: 20px;
+    }
+
+    .education-1-date,
+    .education-2-date {
+        font-size: 15px;
+        margin-top: 3px;
+    }
+
+    .education-2-field {
+        font-size: 15px;
+    }
+
+    /*technical-skills-section*/
+    .tech-skill-1 {
+        font-size: 18px;
+    }
+
+    /*business-skills-section*/
+    .business-skill-1 {
+        font-size: 18px;
+    }
+
+    /*footer-section*/
+    .footer-given-name,
+    .footer-family-name {
+        font-size: 40px;
+        line-height: 50px;
+        margin: 0px 0px 0px 20px;
+    }
+
+    .footer-social-media {
+        margin-top: 40px;
+        margin-bottom: 10%;
+        margin: 40px 0px 10% 20px;
+    }
+
+    .snake-item {
+        display: none;
+    }
+  }
