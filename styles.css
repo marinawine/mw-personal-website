@@ -1,7 +1,10 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: 'Kaisei Tokumin', serif;
+    font-family: 'Roboto', sans-serif;;
+    /* background-color: #001232; */
+    background-color: #090824;
+    color: #FEF5DA;
 }
 
 /* 
@@ -14,7 +17,11 @@ body {
 
 .navbar-nav .nav-link {
     margin: 0px 15px 0px 15px;
-    color: #000;
+    color: #696969 !important;
+}
+
+.nav-link:hover {
+    color: #FEF5DA !important;
 }
 
 /* header-section */
@@ -26,27 +33,48 @@ body {
 }
 
 .header-title {
-    font-size: 80px;
+    font-size: 40px;
+    font-weight: 300;
 }
 
-.header-subtitle-1,
-.header-subtitle-2 {
+.header-grey {
+    color: #696969;
+    font-weight: 300;
+}
+
+.header-subtitle-1 {
     font-size: 30px;
+    font-weight: 300;
+}
+
+.header-subtitle-2 {
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .header-row-1 {
-    width: auto;
-    padding-top: 100px;
+    width: 60%;
+    padding-top: 300px;
 }
 
 .header-row-2 {
     width: auto;
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
 .header-row-3 {
-    margin-top: 100px;
+    margin-top: 20px;
     margin-bottom: 40%;
+}
+
+.golane-link {
+    all: unset;
+}
+
+.golane-link:hover {
+    border-bottom:1px solid #FEF5DA;
+    padding-bottom: 4px;
+    color: #FEF5DA;
 }
 
 /* work-section */
@@ -69,6 +97,7 @@ body {
 .work-2-task-text,
 .work-2-task-list {
     font-size: 25px;
+    font-weight: 300;
 }
 
 .work-1-date,
@@ -110,6 +139,7 @@ body {
 
 .education-2-field {
     font-size: 25px;
+    font-weight: 300;
 }
 
 /* tech-skills-section */
@@ -119,8 +149,11 @@ body {
 }
 
 .tech-bar {
-    color: red !important;
-    background-color: #000 !important;
+    background-color: #fff !important;
+}
+
+.progress {
+    --bs-progress-bg: #090824 !important;
 }
 
 .last-tech-skill-row {
@@ -134,8 +167,7 @@ body {
 }
 
 .business-bar {
-    color: red !important;
-    background-color: #000 !important;
+    background-color: #fff !important;
 }
 
 .last-business-skill-row {
