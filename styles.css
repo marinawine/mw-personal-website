@@ -2,8 +2,8 @@ body {
     width: 100%;
     height: 100%;
     font-family: 'Roboto', sans-serif;;
-    /* background-color: #001232; */
-    background-color: #090824;
+    background-color: #0A072C;
+    /* background-color: #090824; */
     color: #FEF5DA;
 }
 
@@ -37,9 +37,9 @@ body {
     font-weight: 300;
 }
 
-.header-grey {
-    color: #696969;
-    font-weight: 300;
+.grey-highlight {
+    color: #797979;
+    font-weight: 400;
 }
 
 .header-subtitle-1 {
@@ -67,14 +67,36 @@ body {
     margin-bottom: 40%;
 }
 
-.golane-link {
+.link-animation {
     all: unset;
 }
 
-.golane-link:hover {
+.link-animation:hover {
     border-bottom:1px solid #FEF5DA;
     padding-bottom: 4px;
     color: #FEF5DA;
+}
+
+/*about-me-section*/
+
+.about-me-section {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+.about-me-heading {
+    font-size: 15px;
+    color: #696969;
+    text-transform: uppercase;
+}
+
+.about-me-text {
+    font-size: 22px;
+}
+
+.about-me-exchange {
+    margin: 40px 0px 0px 0px;
 }
 
 /* work-section */
