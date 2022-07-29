@@ -111,33 +111,35 @@ body {
     width: 100%;
 }
 
-.work-1-position,
+.work-heading {
+    font-size: 15px;
+    color: #696969;
+    text-transform: uppercase;
+}
+
+.work-position {
+    font-size: 22px;
+}
+
+.work-company-description {
+    font-size: 20px;
+}
+
+/* .work-1-position,
 .work-2-position
 {
     font-size: 30px;
-}
+} */
 
-.work-1-company-desc,
 .work-1-task-text,
 .work-1-task-list,
 .work-2-task-text,
 .work-2-task-list {
-    font-size: 25px;
-    font-weight: 300;
-}
-
-.work-1-date,
-.work-2-date {
-    font-size: 22px;
-    margin-top: 3px;
-}
-
-.vertical-line {
-    margin-top: -30px;
+    font-size: 20px;
 }
 
 .work-row-2 {
-    margin-top: 100px;
+    margin: 400px 0px 0px 0px;
 }
 
 /* education-section */
