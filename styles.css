@@ -28,7 +28,7 @@ body {
 
 .header-section {
     box-sizing: border-box;
-    height: 100%;
+    height: 110%;
     width: 100%;
 }
 
@@ -83,6 +83,7 @@ body {
     box-sizing: border-box;
     height: 100%;
     width: 100%;
+    margin: 100px 0px 100px 0px;
 }
 
 .about-me-heading {
@@ -100,7 +101,7 @@ body {
 }
 
 .about-me-img {
-    margin: -380px 0px 0px 87.8%;
+    margin: -500px 0px 0px 87.8%;
 }
 /* work-section */
 
